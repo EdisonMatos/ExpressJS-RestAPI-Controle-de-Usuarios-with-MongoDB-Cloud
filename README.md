@@ -1,4 +1,4 @@
-<h1>Titulo ou Arte do Projeto</h1>
+<h1>API Rest  de Lista de Usuários em Banco de Dados (MongoDB) com Node (ExpressJS)</h1>
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=Javascript&message=Linguagem&color=blue&style=for-the-badge&logo=javascript"/>
@@ -6,10 +6,11 @@
   <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
   <img src="http://img.shields.io/static/v1?label=Node&message=18.16.1&color=red&style=for-the-badge&logo=node"/>
   <img src="http://img.shields.io/static/v1?label=ExpressJS&message=4.18.2&color=red&style=for-the-badge&logo=express"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
 </p>
 
-> Status do Projeto: :heavy_check_mark: :warning: (concluido, em desenvolvimento, etc)
+<p align="center">
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+</p>
 
 ### Tópicos
 
