@@ -44,7 +44,7 @@
 
 ## Link da aplicação :dash:
 
-> Em breve: [https://certificates-for-everyone-womakerscode.netlify.app/](https://vercel.com/)
+> Em breve: Na Vercel (https://vercel.com/)
 
 ...
 
