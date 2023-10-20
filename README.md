@@ -18,7 +18,7 @@
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
+:small_blue_diamond: [Deploy da Aplicação](#link-da-aplicação-dash)
 
 :small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
@@ -42,7 +42,7 @@
 
 :heavy_check_mark: Deletar informações em um banco de dados.
 
-## Layout ou Deploy da Aplicação :dash:
+## Link da aplicação :dash:
 
 > Em breve: [https://certificates-for-everyone-womakerscode.netlify.app/](https://vercel.com/)
 
