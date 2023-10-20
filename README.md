@@ -55,11 +55,31 @@
 
 ## Pré-requisitos
 
-Você precisa ter os itens abaixo instalados na sua máquina para rodar a aplicação:
+### Você precisa ter os itens abaixo instalados na sua máquina para rodar a aplicação:
 
-:warning: [Node - Clique aqui para baixar](https://nodejs.org/en/download/) 
+:warning: [Node](https://nodejs.org/en/download/) 
+
+---
+
+Algum client para fazer requisições para APIs. 
+<br>
+Recomendo qualquer uma das opções abaixo:
+
+:warning: [Postman](https://www.postman.com/downloads/)
+
+[Como usar o Postman?](https://suporte.braspag.com.br/hc/pt-br/articles/360024762671-Postman-instala%C3%A7%C3%A3o-cria%C3%A7%C3%A3o-de-collections-e-request#:~:text=Para%20criar%20uma%20requisi%C3%A7%C3%A3o%2C%20clique,PUT%2C%20POST...)
+
+<br>
+
+:warning: [Insomnia](https://insomnia.rest/download)
+
+[Como usar o Insomnia?](https://www.linkedin.com/pulse/primeiros-passos-insomnia-para-testes-deapi-priscila-de-araujo-caimi/?originalSubdomain=pt)
+
+<br>
 
 :warning: [Thuder Client - Extensão do VS Code para fazer requests de forma simplificada](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+
+[Como usar o Thunder Client? Opçãos mais simplificada](https://blog.cod3r.com.br/thunder-client-requisicoes-http-a-partir-do-visual-studio-code/)
 
 <br> 
 
