@@ -7,6 +7,7 @@
   <img src="http://img.shields.io/static/v1?label=Node&message=18.16.1&color=red&style=for-the-badge&logo=node"/>
   <img src="http://img.shields.io/static/v1?label=ExpressJS&message=4.18.2&color=red&style=for-the-badge&logo=express"/>
 </p>
+<br>
 
 <p align="center">
    <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
@@ -24,13 +25,15 @@
 
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 
-...
+<br>
 
 ## Descrição do projeto
 
 <p align="justify">
-  Esta API é uma API padrão REST que utiliza os métodos GET, CREATE, PUT e DELETE nas requisições usando o protocolo HTTP. Tem por finalidade manusear o backend totalmente funcional, aplicando conhecimentos em Node com o framework Express, somando a um banco de dados NoSQL (MongoDB) e com deploy feito na Vercel, possibilitando um teste com a aplicação já no ar. 
+  Esta API é uma API padrão REST que utiliza os métodos GET, CREATE, PUT e DELETE nas requisições usando o protocolo HTTP. Tem por finalidade manusear um backend totalmente funcional, aplicando conhecimento em Node (com o framework Express), somado a um banco de dados NoSQL (MongoDB) e com deploy feito na Vercel, possibilitando um teste com a aplicação já no ar. 
 </p>
+
+<br>
 
 ## Funcionalidades
 
@@ -42,39 +45,45 @@
 
 :heavy_check_mark: Deletar informações em um banco de dados.
 
+<br>
+
 ## Link da aplicação :dash:
 
 > Em breve: Na Vercel (https://vercel.com/)
 
-...
+<br>
 
 ## Pré-requisitos
 
-:warning: [Node](https://nodejs.org/en/download/)
+Você precisa ter os itens abaixo instalados na sua máquina para rodar a aplicação:
 
-...
+:warning: [Node - Clique aqui para baixar](https://nodejs.org/en/download/) 
 
-Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação
+:warning: [Thuder Client - Extensão do VS Code para fazer requests de forma simplificada](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+
+<br> 
 
 ## Como rodar a aplicação :arrow_forward:
 
-No terminal, clone o projeto:
+Dentro da pasta onde deseja baixar a aplicação, abra o terminal e clone o projeto:
 
 ```
-git clone https://github.com/React-Bootcamp-WoMarkersCode/certificate-generator
+git clone https://github.com/EdisonMatos/ExpressJS-Full-Application.git
+```
+Acesse o conteúdo da pasta baixada através do comando:
+```
+cd ExpressJS-Full-Application
+```
+Dentro da pasta, instale as dependências necessárias para roda a aplicação através do comando:
+```
+npm install
 ```
 
-...
-
-Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio projeto e verfique se o passo a passo funciona**
-
-## Como rodar os testes
-
-Coloque um passo a passo para executar os testes
-
+Agora, para iniciar a aplicação:
 ```
-$ npm test, rspec, etc
+npm run dev
 ```
+<br>
 
 ## Casos de Uso
 
