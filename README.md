@@ -1,14 +1,12 @@
 <h1>Titulo ou Arte do Projeto</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
-  <img src="https://img.shields.io/static/v1?label=Netlify&message=deploy&color=blue&style=for-the-badge&logo=netlify"/>
+  <img src="https://img.shields.io/static/v1?label=ExpressJS&message=framework&color=blue&style=for-the-badge&logo=express"/>
+  <img src="https://img.shields.io/static/v1?label=Vercel&message=deploy&color=blue&style=for-the-badge&logo=vercel"/>
   <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
-  <img src="http://img.shields.io/static/v1?label=Ruby&message=2.6.3&color=red&style=for-the-badge&logo=ruby"/>
-  <img src="http://img.shields.io/static/v1?label=Ruby%20On%20Rails%20&message=6.0.2.2&color=red&style=for-the-badge&logo=ruby"/>
-  <img src="http://img.shields.io/static/v1?label=TESTES&message=%3E100&color=GREEN&style=for-the-badge"/>
+  <img src="http://img.shields.io/static/v1?label=Node&message=18.16.1&color=red&style=for-the-badge&logo=node"/>
+  <img src="http://img.shields.io/static/v1?label=ExpressJS&message=4.18.2&color=red&style=for-the-badge&logo=express"/>
    <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </p>
 
 > Status do Projeto: :heavy_check_mark: :warning: (concluido, em desenvolvimento, etc)
@@ -27,31 +25,27 @@
 
 ...
 
-Insira os tópicos do README em links para facilitar a navegação do leitor
-
 ## Descrição do projeto
 
 <p align="justify">
-  Descrição breve do projeto compondo um paragrafo ou dois. 
+  Esta API é uma API padrão REST que utiliza os métodos GET, CREATE, PUT e DELETE nas requisições usando o protocolo HTTP. Tem por finalidade manusear o backend totalmente funcional, aplicando conhecimentos em Node com o framework Express, somando a um banco de dados NoSQL (MongoDB) e com deploy feito na Vercel, possibilitando um teste com a aplicação já no ar. 
 </p>
 
 ## Funcionalidades
 
-:heavy_check_mark: Funcionalidade 1
+:heavy_check_mark: Listar dados de um banco de dados
 
-:heavy_check_mark: Funcionalidade 2
+:heavy_check_mark: Inserir em um banco de dados
 
-:heavy_check_mark: Funcionalidade 3
+:heavy_check_mark: Atualizar informações de dados existentes em um banco de dados
 
-:heavy_check_mark: Funcionalidade 4
+:heavy_check_mark: Deletar informações em um banco de dados.
 
 ## Layout ou Deploy da Aplicação :dash:
 
-> Link do deploy da aplicação. Exemplo com netlify: https://certificates-for-everyone-womakerscode.netlify.app/
+> Em breve: [https://certificates-for-everyone-womakerscode.netlify.app/](https://vercel.com/)
 
 ...
-
-Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
 
 ## Pré-requisitos
 
