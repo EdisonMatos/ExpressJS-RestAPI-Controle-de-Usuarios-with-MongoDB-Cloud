@@ -1,7 +1,7 @@
 <h1>Titulo ou Arte do Projeto</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=ExpressJS&message=framework&color=blue&style=for-the-badge&logo=express"/>
+  <img src="https://img.shields.io/static/v1?label=Javascript&message=Linguagem&color=blue&style=for-the-badge&logo=javascript"/>
   <img src="https://img.shields.io/static/v1?label=Vercel&message=deploy&color=blue&style=for-the-badge&logo=vercel"/>
   <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
   <img src="http://img.shields.io/static/v1?label=Node&message=18.16.1&color=red&style=for-the-badge&logo=node"/>
