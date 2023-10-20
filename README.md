@@ -57,7 +57,7 @@
 
 ### Você precisa ter os itens abaixo instalados na sua máquina para rodar a aplicação:
 
-:warning: [Node](https://nodejs.org/en/download/) 
+:white_check_mark: [Node](https://nodejs.org/en/download/) 
 
 ---
 
@@ -65,21 +65,27 @@ Algum client para fazer requisições para APIs.
 <br>
 Recomendo qualquer uma das opções abaixo:
 
-:warning: [Postman](https://www.postman.com/downloads/)
+:white_check_mark: [Postman](https://www.postman.com/downloads/)
 
-[Como usar o Postman?](https://suporte.braspag.com.br/hc/pt-br/articles/360024762671-Postman-instala%C3%A7%C3%A3o-cria%C3%A7%C3%A3o-de-collections-e-request#:~:text=Para%20criar%20uma%20requisi%C3%A7%C3%A3o%2C%20clique,PUT%2C%20POST...)
+[Como usar o Postman? (Texto)](https://suporte.braspag.com.br/hc/pt-br/articles/360024762671-Postman-instala%C3%A7%C3%A3o-cria%C3%A7%C3%A3o-de-collections-e-request#:~:text=Para%20criar%20uma%20requisi%C3%A7%C3%A3o%2C%20clique,PUT%2C%20POST...)
 
-<br>
-
-:warning: [Insomnia](https://insomnia.rest/download)
-
-[Como usar o Insomnia?](https://www.linkedin.com/pulse/primeiros-passos-insomnia-para-testes-deapi-priscila-de-araujo-caimi/?originalSubdomain=pt)
+[Como fazer requisição no Postman? (Vídeo - 2 minutos)](https://www.youtube.com/watch?v=_E110UwTJsE)
 
 <br>
 
-:warning: [Thuder Client - Extensão do VS Code para fazer requests de forma simplificada](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+:white_check_mark: [Insomnia](https://insomnia.rest/download)
 
-[Como usar o Thunder Client? Opçãos mais simplificada](https://blog.cod3r.com.br/thunder-client-requisicoes-http-a-partir-do-visual-studio-code/)
+[Como usar o Insomnia? (Texto)](https://www.linkedin.com/pulse/primeiros-passos-insomnia-para-testes-deapi-priscila-de-araujo-caimi/?originalSubdomain=pt)
+
+[Como fazer requisição no Insomnia? (Vídeo - 7 minutos)](https://www.youtube.com/watch?v=iudRaKai31g)
+
+<br>
+
+:white_check_mark: [Thuder Client - Extensão do VS Code](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+
+[Como usar o Thunder Client? (Texto)](https://blog.cod3r.com.br/thunder-client-requisicoes-http-a-partir-do-visual-studio-code/)
+
+[Como fazer requisição no Thuder Cliente? (Vídeo - 4 minutos)](https://www.youtube.com/watch?v=btC7Q-3n6CA)
 
 <br> 
 
