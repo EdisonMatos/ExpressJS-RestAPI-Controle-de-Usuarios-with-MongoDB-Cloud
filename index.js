@@ -22,7 +22,7 @@ app.get("/users/:id", function (req, res) {
 // Create
 
 app.post("/users", function (req, res) {
-  const newUser = req.body.name;
+  const newUser = req.body;
   users.push(newUser);
   res.send(users);
 });
