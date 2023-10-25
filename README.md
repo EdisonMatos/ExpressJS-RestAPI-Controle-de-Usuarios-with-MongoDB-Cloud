@@ -88,6 +88,9 @@ Recomendo qualquer uma das opções abaixo:
 [Como fazer requisição no Thuder Cliente? (Vídeo - 4 minutos)](https://www.youtube.com/watch?v=btC7Q-3n6CA)
 
 <br> 
+<a href="https://ibb.co/ZmKNRFj"><img src="https://i.ibb.co/NSp7gJv/Captura-de-Tela-2023-10-25-s-15-10-18.png" alt="Captura-de-Tela-2023-10-25-s-15-10-18" border="0"></a>
+
+<br>
 
 ## Como rodar a aplicação :arrow_forward:
 
@@ -110,6 +113,15 @@ Agora, para iniciar a aplicação:
 npm run dev
 ```
 <br>
+
+---
+
+
+
+## Linguagens, dependencias e libs utilizadas :books:
+
+- [Express](https://expressjs.com/pt-br/)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
 
 <!--
 
@@ -134,11 +146,6 @@ Se quiser, coloque uma amostra do banco de dados
 ## Iniciando/Configurando banco de dados
 
 Se for necessário configurar algo antes de iniciar o banco de dados insira os comandos a serem executados
-
-## Linguagens, dependencias e libs utilizadas :books:
-
-- [React](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
-- [React PDF](https://react-pdf.org/)
 
 ...
 
