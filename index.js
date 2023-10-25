@@ -16,15 +16,26 @@ app.get("/users", function (req, res) {
 
 app.get("/users/:id", function (req, res) {
   const id = req.params.id - 1;
-  res.send(users[id]);
+
+  if (id >= 0) {
+    console.log(typeof id);
+    res.send(users[id]);
+  } else {
+    res.send("The id must be a number. Try: users/1");
+  }
 });
 
 // Create
 
 app.post("/users", function (req, res) {
   const newUser = req.body;
-  users.push(newUser);
-  res.send(newUser);
+
+  if (newUser.name == undefined || newUser.name == "") {
+    res.send('Name must be informed. Try: { "name": "Edison" } ');
+  } else {
+    users.push(newUser);
+    res.send(newUser);
+  }
 });
 
 // Update
