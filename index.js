@@ -22,8 +22,6 @@ console.log(
   "Enjoy."
 );
 
-// Find all
-
 app.get("/users", function (req, res) {
   if (users.length <= 0) {
     res.send({
@@ -34,8 +32,6 @@ app.get("/users", function (req, res) {
     res.send({ Users: users.filter(Boolean) });
   }
 });
-
-// Find one (by id)
 
 app.get("/users/:id", function (req, res) {
   const id = req.params.id - 1;
@@ -55,8 +51,6 @@ app.get("/users/:id", function (req, res) {
   }
 });
 
-// Create
-
 app.post("/users", function (req, res) {
   const newUser = req.body;
 
@@ -71,8 +65,6 @@ app.post("/users", function (req, res) {
     res.send({ UserCreated: newUser, message: "Created successfully." });
   }
 });
-
-// Update
 
 app.put("/users/:id", function (req, res) {
   const id = req.params.id - 1;
@@ -105,8 +97,6 @@ app.put("/users/:id", function (req, res) {
     });
   }
 });
-
-// Delete
 
 app.delete("/users/:id", function (req, res) {
   const id = req.params.id - 1;
