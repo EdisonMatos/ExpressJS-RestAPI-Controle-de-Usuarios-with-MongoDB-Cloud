@@ -87,6 +87,8 @@ Recomendo qualquer uma das opções abaixo:
 
 [Como fazer requisição no Thuder Cliente? (Vídeo - 4 minutos)](https://www.youtube.com/watch?v=btC7Q-3n6CA)
 
+<br>
+
 ## Como rodar a aplicação :arrow_forward:
 
 Dentro da pasta onde deseja baixar a aplicação, abra o terminal e clone o projeto:
@@ -107,6 +109,18 @@ Agora, para iniciar a aplicação:
 ```
 npm run dev
 ```
+
+Caso precise encerrar a aplicação:
+```
+cmd + c (no mac)
+
+ou
+
+ctrl + c (no windows)
+
+```
+
+
 <br>
 
 ---
@@ -125,12 +139,64 @@ Para fazer as requisições, siga o passo a passo a seguir:
 
 🟡 Passo 2- Preencher com a url do endpoint desejado (ex: localhost:3000/users
 
-🟢 Passo 3- Se for requisição que envia conteúdo no seu body, selecionar a opção BODY/JSON e preencher o espaço com o padrao JSON (ex: {"name": "Edison"}
+🟢 Passo 3- Se for requisição que envia conteúdo no seu body, selecionar a opção BODY/JSON e preencher o espaço com o padrao JSON. Ex: {"name": "Edison"}
 
 🟣 Passo 4- Após essas etapas terem sido concluídas, clicar em SEND para enviar a requisição e esperar a resposta da API no quadrante inferior.
 
+---
 
+## Testando a aplicação
 
+Nesta aplicação temos um CRUD completo (CRUD = acrônimo para Create, Read, Update e Delete), desta forma conseguimos manipular os dados que iremos armazenar das seguinte formes: criando, visualizando, editando e deletando eles.
+
+#### CREATE - Uso do método POST.
+
+Para criar um conjunto de dados simples (neste caso, usuário apenas com nome), selecione o método POST, no endpoint localhost:3000/users e preencha o corpo da requisição com o seguinte código em json, e clique em enviar requisição:
+
+```
+{
+"name": "Edison"
+}
+```
+Obs: Nesta aplicação, a única propriedade obrigatória é o "name". Você pode inserir o que mais quiser desde que siga o padrão "chave": "valor".
+
+<br>
+
+#### READ - Uso do método GET
+
+Para termos acesso aos dados já armazenados, usaremos duas formas:
+
+Read All - Lista todos os nomes armazenados: Selecione o método GET no endpoint localhost:3000/users e clique em enviar.
+
+Read by id - Lista um nome em específico: Selecione o método GET no endpoint localhost:3000/users/1 e clique em enviar. Neste exemplo, voce acessará o primeiro nome que você armazenou. O número "1" adicionado ao final do endpoint localiza exatamente o 1º item na lista de nomes armazenados. Caso adicione mais de um, pode mudar o endpoint para 2, 3, etc, para visualizar os outros. 
+
+<br>
+
+#### UPDATE - Uso do método PUT.
+
+Para atualizar as informações (neste caso, sobrescrever), selecione o método PUT, no endpoint com o número do nome desejado (ex: Se quiser alterar o 1º nome da lista, utilize localhost:3000/1 e preencha o corpo da requisição com o seguinte código em json com o novo nome:
+
+```
+{
+"name": "Eduardo"
+}
+```
+
+#### DELETE - Uso do método DELETE.
+
+Para deletar um nome preenchido anteriormente, selecione o método DELETE, no endpoint com o número do nome desejado (ex: Se quiser deletar o 1º nome da lista, utilize localhost:3000/1 e clique em enviar.
+
+---
+
+<br>
+
+## Considerações finais
+
+Este é um CRUD bem simples e com algumas validações (como necessidade do "name" ou impedindo que requests sejam feitas de forma incorreta, como enviar um dado alfabético no endpoint que deve receber apenas números, com foco em utilizar o ExpressJS para criar o servidor e manusearmos através de requisições do protocolo http, armazenando as informações na memória da própria aplicação. 
+
+Abraço.
+
+<br>
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
