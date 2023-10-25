@@ -87,11 +87,6 @@ Recomendo qualquer uma das opções abaixo:
 
 [Como fazer requisição no Thuder Cliente? (Vídeo - 4 minutos)](https://www.youtube.com/watch?v=btC7Q-3n6CA)
 
-<br> 
-<a href="https://ibb.co/ZmKNRFj"><img src="https://i.ibb.co/NSp7gJv/Captura-de-Tela-2023-10-25-s-15-10-18.png" alt="Captura-de-Tela-2023-10-25-s-15-10-18" border="0"></a>
-
-<br>
-
 ## Como rodar a aplicação :arrow_forward:
 
 Dentro da pasta onde deseja baixar a aplicação, abra o terminal e clone o projeto:
@@ -115,6 +110,25 @@ npm run dev
 <br>
 
 ---
+
+### Como testar as funcionalidades da aplicação 
+
+Após a aplicação estar rodando, abra o client de requisição http de sua preferência.
+
+Para fazer as requisições, siga o passo a passo a seguir:
+
+<br> 
+<a href="https://ibb.co/ZmKNRFj"><img src="https://i.ibb.co/NSp7gJv/Captura-de-Tela-2023-10-25-s-15-10-18.png" alt="Captura-de-Tela-2023-10-25-s-15-10-18" border="0"></a>
+<br>
+
+🔴 Passo 1- Selecionar o tipo de requisição (no nosso caso, GET, POST, PUT ou DELETE
+
+🟡 Passo 2- Preencher com a url do endpoint desejado (ex: localhost:3000/users
+
+🟢 Passo 3- Se for requisição que envia conteúdo no seu body, selecionar a opção BODY/JSON e preencher o espaço com o padrao JSON (ex: {"name": "Edison"}
+
+🟣 Passo 4- Após essas etapas terem sido concluídas, clicar em SEND para enviar a requisição e esperar a resposta da API no quadrante inferior.
+
 
 
 
