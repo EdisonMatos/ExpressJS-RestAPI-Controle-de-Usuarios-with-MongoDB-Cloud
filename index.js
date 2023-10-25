@@ -6,6 +6,22 @@ app.use(express.json());
 
 const users = [];
 
+console.log(
+  "\n\nInstructions:",
+  "\n\n",
+  'To create a user, send a POST request to localhost:3000/users route with json format on body. Example: { "name": "Edison"}',
+  "\n",
+  "To find all users, send a GET request to localhost:3000/users",
+  "\n",
+  "To find a specific user, send a GET request to localhost:3000/users/1 or any other numerical that match with the users list order",
+  "\n",
+  'To update an user info, same as CREATE, but you need to send a PUT request with the new information. Example: {"name": "Matos"}',
+  "\n",
+  "To delete an user, send a DELETE request to localhost:3000/users/1 or any other numerical that match with the users list order",
+  "\n\n",
+  "Enjoy."
+);
+
 // Find all
 
 app.get("/users", function (req, res) {
@@ -29,7 +45,7 @@ app.get("/users/:id", function (req, res) {
   } else if (users.length == 0) {
     res.send({
       error:
-        "First you have to create a user. Try a POST request to localhost:3000/users/",
+        "No users found. First you have to create a user. Try a POST request to localhost:3000/users/",
     });
   } else {
     res.send({
@@ -47,12 +63,12 @@ app.post("/users", function (req, res) {
   if (newUser.name == undefined || newUser.name == "") {
     res.send({
       error:
-        "Name must be informed. Try a POST request with Body content in JSON format as followed:",
+        "A name must be informed. Try a POST request with Body content in JSON format as followed:",
       example: { name: "Edison" },
     });
   } else {
     users.push(newUser);
-    res.send({ UserCreated: newUser, message: "Createad successfully." });
+    res.send({ UserCreated: newUser, message: "Created successfully." });
   }
 });
 
@@ -67,7 +83,8 @@ app.put("/users/:id", function (req, res) {
     if (newUser.name == undefined || newUser.name == "") {
       res.send({
         error:
-          'Name must be informed. Try a POST request with Body content in JSON format as followed: { "name": "Edison" } ',
+          "A name must be informed. Try a POST request with Body content in JSON format as followed:",
+        example: { name: "Edison" },
       });
     } else {
       users[id] = newUser;
@@ -111,6 +128,4 @@ app.delete("/users/:id", function (req, res) {
   }
 });
 
-app.listen(3000, () => {
-  console.log("Runing at port 3000");
-});
+app.listen(3000, () => {});
