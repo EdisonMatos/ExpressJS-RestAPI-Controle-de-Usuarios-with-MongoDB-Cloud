@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=Javascript&message=Linguagem&color=blue&style=for-the-badge&logo=javascript"/>
-  <img src="https://img.shields.io/static/v1?label=Vercel&message=deploy&color=blue&style=for-the-badge&logo=vercel"/>
-  <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
+  <!--<img src="https://img.shields.io/static/v1?label=Vercel&message=deploy&color=blue&style=for-the-badge&logo=vercel"/>-->
+  <!--<img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>-->
   <img src="http://img.shields.io/static/v1?label=Node&message=18.16.1&color=red&style=for-the-badge&logo=node"/>
   <img src="http://img.shields.io/static/v1?label=ExpressJS&message=4.18.2&color=red&style=for-the-badge&logo=express"/>
 </p>
@@ -13,13 +13,13 @@
    <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=RED&style=for-the-badge"/>
 </p>
 
-### Tópicos
+## Tópicos
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
-:small_blue_diamond: [Funcionalidades](#funcionalidades)
+:small_blue_diamond: [Funcionalidades da aplicação](#funcionalidades)
 
-:small_blue_diamond: [Deploy da Aplicação](#link-da-aplicação-dash)
+<!--:small_blue_diamond: [Deploy da Aplicação](#link-da-aplicação-dash)-->
 
 :small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
@@ -30,68 +30,46 @@
 ## Descrição do projeto
 
 <p align="justify">
-  Esta API é uma API padrão REST que utiliza os métodos GET, CREATE, PUT e DELETE nas requisições usando o protocolo HTTP. Tem por finalidade manusear um backend totalmente funcional, aplicando conhecimento em Node (com o framework Express), somado a um banco de dados NoSQL (MongoDB) e com deploy feito na Vercel, possibilitando um teste com a aplicação já no ar. 
+  Esta API é uma aplicação no padrão REST que utiliza os métodos GET, CREATE, PUT e DELETE nas requisições usando o protocolo HTTP. Tem por finalidade manusear um backend totalmente funcional, aplicando conhecimento em Node (com o framework Express), somado a um banco de dados NoSQL (MongoDB) e com deploy feito na Vercel, possibilitando um teste com a aplicação já no ar. 
 </p>
 
 <br>
 
-## Funcionalidades
+## Funcionalidades da aplicação 
 
-:heavy_check_mark: Listar dados de um banco de dados
+:heavy_check_mark: Armazena dados na própria memória
 
-:heavy_check_mark: Inserir em um banco de dados
+:heavy_check_mark: Lista, insere, atualiza e remove conjunto de dados
 
-:heavy_check_mark: Atualizar informações de dados existentes em um banco de dados
+:heavy_check_mark: Valida entrada de dados e endpoints contra entradas incorretas
 
-:heavy_check_mark: Deletar informações em um banco de dados.
+:heavy_check_mark: Retorna mensagens de erro personalizadas
 
-<br>
-
-## Link da aplicação :dash:
-
-> Em breve: Na Vercel (https://vercel.com/)
+:heavy_check_mark: Usa do terminal para fins de instrução
 
 <br>
+
+<!--## Link da aplicação :dash:
+
+> Em breve: Na Vercel (https://vercel.com/) -->
 
 ## Pré-requisitos
 
-### Você precisa ter os itens abaixo instalados na sua máquina para rodar a aplicação:
+Você precisa ter os itens abaixo instalados na sua máquina para rodar a aplicação:
 
 :white_check_mark: [Node](https://nodejs.org/en/download/) 
 
----
+:white_check_mark: [GIT](https://git-scm.com/downloads)
 
-Algum client para fazer requisições para APIs. 
-<br>
-Recomendo qualquer uma das opções abaixo:
+Algum client http para fazer requisições para APIs. Recomendo qualquer uma das opções abaixo:
 
-:white_check_mark: [Postman](https://www.postman.com/downloads/)
-
-[Como usar o Postman? (Texto)](https://suporte.braspag.com.br/hc/pt-br/articles/360024762671-Postman-instala%C3%A7%C3%A3o-cria%C3%A7%C3%A3o-de-collections-e-request#:~:text=Para%20criar%20uma%20requisi%C3%A7%C3%A3o%2C%20clique,PUT%2C%20POST...)
-
-[Como fazer requisição no Postman? (Vídeo - 2 minutos)](https://www.youtube.com/watch?v=_E110UwTJsE)
-
-<br>
-
-:white_check_mark: [Insomnia](https://insomnia.rest/download)
-
-[Como usar o Insomnia? (Texto)](https://www.linkedin.com/pulse/primeiros-passos-insomnia-para-testes-deapi-priscila-de-araujo-caimi/?originalSubdomain=pt)
-
-[Como fazer requisição no Insomnia? (Vídeo - 7 minutos)](https://www.youtube.com/watch?v=iudRaKai31g)
-
-<br>
-
-:white_check_mark: [Thuder Client - Extensão do VS Code](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
-
-[Como usar o Thunder Client? (Texto)](https://blog.cod3r.com.br/thunder-client-requisicoes-http-a-partir-do-visual-studio-code/)
-
-[Como fazer requisição no Thuder Cliente? (Vídeo - 4 minutos)](https://www.youtube.com/watch?v=btC7Q-3n6CA)
+:white_check_mark: [Postman](https://www.postman.com/downloads/) ou :white_check_mark: [Insomnia](https://insomnia.rest/download) ou :white_check_mark: [Thuder Client - Extensão do VS Code](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
 
 <br>
 
 ## Como rodar a aplicação :arrow_forward:
 
-Dentro da pasta onde deseja baixar a aplicação, abra o terminal e clone o projeto:
+Dentro da pasta onde deseja baixar a aplicação, abra o terminal e clone o projeto através do comando:
 
 ```
 git clone https://github.com/EdisonMatos/ExpressJS-Full-Application.git
@@ -100,7 +78,7 @@ Acesse o conteúdo da pasta baixada através do comando:
 ```
 cd ExpressJS-Full-Application
 ```
-Dentro da pasta, instale as dependências necessárias para roda a aplicação através do comando:
+Dentro da pasta, instale as dependências necessárias para rodar a aplicação através do comando:
 ```
 npm install
 ```
@@ -117,15 +95,11 @@ cmd + c (no mac)
 ou
 
 ctrl + c (no windows)
-
 ```
-
 
 <br>
 
----
-
-### Como testar as funcionalidades da aplicação 
+## Como testar as funcionalidades da aplicação 
 
 Após a aplicação estar rodando, abra o client de requisição http de sua preferência.
 
@@ -135,21 +109,23 @@ Para fazer as requisições, siga o passo a passo a seguir:
 <a href="https://ibb.co/ZmKNRFj"><img src="https://i.ibb.co/NSp7gJv/Captura-de-Tela-2023-10-25-s-15-10-18.png" alt="Captura-de-Tela-2023-10-25-s-15-10-18" border="0"></a>
 <br>
 
-🔴 Passo 1- Selecionar o tipo de requisição (no nosso caso, GET, POST, PUT ou DELETE
+1. Selecionar o tipo de requisição (no nosso caso, GET, POST, PUT ou DELETE)
 
-🟡 Passo 2- Preencher com a url do endpoint desejado (ex: localhost:3000/users
+2. Preencher com a url do endpoint desejado (ex: localhost:3000/users
 
-🟢 Passo 3- Se for requisição que envia conteúdo no seu body, selecionar a opção BODY/JSON e preencher o espaço com o padrao JSON. Ex: {"name": "Edison"}
+3. Se for requisição que envia conteúdo no seu body, selecionar a opção BODY/JSON e preencher o espaço com o padrao JSON. Ex: {"name": "Edison"}
 
-🟣 Passo 4- Após essas etapas terem sido concluídas, clicar em SEND para enviar a requisição e esperar a resposta da API no quadrante inferior.
+4. Após essas etapas terem sido concluídas, clicar em SEND para enviar a requisição e esperar a resposta da API no quadrante inferior.
 
----
+<br>
 
 ## Testando a aplicação
 
 Nesta aplicação temos um CRUD completo (CRUD = acrônimo para Create, Read, Update e Delete), desta forma conseguimos manipular os dados que iremos armazenar das seguinte formes: criando, visualizando, editando e deletando eles.
 
-#### CREATE - Uso do método POST.
+<br>
+
+## CREATE - Uso do método POST.
 
 Para criar um conjunto de dados simples (neste caso, usuário apenas com nome), selecione o método POST, no endpoint localhost:3000/users e preencha o corpo da requisição com o seguinte código em json, e clique em enviar requisição:
 
@@ -162,7 +138,7 @@ Obs: Nesta aplicação, a única propriedade obrigatória é o "name". Você pod
 
 <br>
 
-#### READ - Uso do método GET
+## READ - Uso do método GET
 
 Para termos acesso aos dados já armazenados, usaremos duas formas:
 
@@ -172,7 +148,7 @@ Read by id - Lista um nome em específico: Selecione o método GET no endpoint l
 
 <br>
 
-#### UPDATE - Uso do método PUT.
+### UPDATE - Uso do método PUT.
 
 Para atualizar as informações (neste caso, sobrescrever), selecione o método PUT, no endpoint com o número do nome desejado (ex: Se quiser alterar o 1º nome da lista, utilize localhost:3000/1 e preencha o corpo da requisição com o seguinte código em json com o novo nome:
 
@@ -182,7 +158,9 @@ Para atualizar as informações (neste caso, sobrescrever), selecione o método 
 }
 ```
 
-#### DELETE - Uso do método DELETE.
+<br>
+
+## DELETE - Uso do método DELETE.
 
 Para deletar um nome preenchido anteriormente, selecione o método DELETE, no endpoint com o número do nome desejado (ex: Se quiser deletar o 1º nome da lista, utilize localhost:3000/1 e clique em enviar.
 
