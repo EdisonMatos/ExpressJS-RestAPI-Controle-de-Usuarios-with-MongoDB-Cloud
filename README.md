@@ -1,4 +1,4 @@
-<h1>API de Lista de Usuários com NodeJS (ExpressJS)</h1>
+<h1>API REST - Lista de Usuários - Javascript, NodeJS e ExpressJS</h1>
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=Javascript&message=Linguagem&color=blue&style=for-the-badge&logo=javascript"/>
