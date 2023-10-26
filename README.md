@@ -1,11 +1,14 @@
-<h1>API REST - Lista de Usuários - Javascript, NodeJS e ExpressJS</h1>
+<h1>API REST - Lista de Usuários - JS, NodeJS e ExpressJS</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=Javascript&message=Linguagem&color=blue&style=for-the-badge&logo=javascript"/>
+  <img src="https://img.shields.io/static/v1?label=Linguagem&message=Javascript&color=yellow&style=for-the-badge"/>
+  <img src="https://img.shields.io/static/v1?label=Runtime&message=NodeJS&color=green&style=for-the-badge"/>
+  <img src="https://img.shields.io/static/v1?label=Framework&message=ExpressJS&color=red&style=for-the-badge"/>
+  <img src="https://img.shields.io/static/v1?label=Armazenamento&message=Memoria&color=blue&style=for-the-badge"/>
   <!--<img src="https://img.shields.io/static/v1?label=Vercel&message=deploy&color=blue&style=for-the-badge&logo=vercel"/>-->
   <!--<img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>-->
-  <img src="http://img.shields.io/static/v1?label=Node&message=18.16.1&color=red&style=for-the-badge&logo=node"/>
-  <img src="http://img.shields.io/static/v1?label=ExpressJS&message=4.18.2&color=red&style=for-the-badge&logo=express"/>
+  <!--<img src="http://img.shields.io/static/v1?label=Node&message=18.16.1&color=red&style=for-the-badge&logo=node"/>
+  <img src="http://img.shields.io/static/v1?label=ExpressJS&message=4.18.2&color=red&style=for-the-badge&logo=express"/>-->
 </p>
 <br>
 
@@ -13,7 +16,7 @@
    <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=RED&style=for-the-badge"/>
 </p>
 
-## Tópicos
+## Tópicos 🔎
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
@@ -27,7 +30,7 @@
 
 <br>
 
-## Descrição do projeto
+## Descrição do projeto 📑
 
 <p align="justify">
   Esta API é uma aplicação no padrão REST que utiliza os métodos GET, CREATE, PUT e DELETE nas requisições usando o protocolo HTTP. Tem por finalidade manusear um backend totalmente funcional, aplicando conhecimento em Node (com o framework Express), somado a um banco de dados NoSQL (MongoDB) e com deploy feito na Vercel, possibilitando um teste com a aplicação já no ar. 
@@ -35,7 +38,7 @@
 
 <br>
 
-## Funcionalidades da aplicação 
+## Funcionalidades da aplicação 🗃
 
 :heavy_check_mark: Armazena dados na própria memória
 
@@ -53,7 +56,7 @@
 
 > Em breve: Na Vercel (https://vercel.com/) -->
 
-## Pré-requisitos
+## Pré-requisitos 🔧
 
 Você precisa ter os itens abaixo instalados na sua máquina para rodar a aplicação:
 
@@ -99,7 +102,7 @@ ctrl + c (no windows)
 
 <br>
 
-## Como testar as funcionalidades da aplicação 
+## Como manusear as funcionalidades da aplicação 
 
 Após a aplicação estar rodando, abra o client de requisição http de sua preferência.
 
@@ -119,13 +122,13 @@ Para fazer as requisições, siga o passo a passo a seguir:
 
 <br>
 
-## Testando a aplicação
+## Utilizando a aplicação
 
 Nesta aplicação temos um CRUD completo (CRUD = acrônimo para Create, Read, Update e Delete), desta forma conseguimos manipular os dados que iremos armazenar das seguinte formes: criando, visualizando, editando e deletando eles.
 
 <br>
 
-## CREATE - Uso do método POST.
+## CREATE - Uso do método POST
 
 Para criar um conjunto de dados simples (neste caso, usuário apenas com nome), selecione o método POST, no endpoint localhost:3000/users e preencha o corpo da requisição com o seguinte código em json, e clique em enviar requisição:
 
@@ -148,7 +151,7 @@ Read by id - Lista um nome em específico: Selecione o método GET no endpoint l
 
 <br>
 
-### UPDATE - Uso do método PUT.
+### UPDATE - Uso do método PUT
 
 Para atualizar as informações (neste caso, sobrescrever), selecione o método PUT, no endpoint com o número do nome desejado (ex: Se quiser alterar o 1º nome da lista, utilize localhost:3000/1 e preencha o corpo da requisição com o seguinte código em json com o novo nome:
 
@@ -160,13 +163,13 @@ Para atualizar as informações (neste caso, sobrescrever), selecione o método 
 
 <br>
 
-## DELETE - Uso do método DELETE.
+## DELETE - Uso do método DELETE
 
 Para deletar um nome preenchido anteriormente, selecione o método DELETE, no endpoint com o número do nome desejado (ex: Se quiser deletar o 1º nome da lista, utilize localhost:3000/1 e clique em enviar.
 
 <br>
 
-## Considerações finais
+## Considerações finais ✅
 
 Este é um CRUD bem simples e com algumas validações (como necessidade do "name" ou impedindo que requests sejam feitas de forma incorreta, como enviar um dado alfabético no endpoint que deve receber apenas números, com foco em utilizar o ExpressJS para criar o servidor e manusearmos através de requisições do protocolo http, armazenando as informações na memória da própria aplicação. 
 
@@ -234,4 +237,4 @@ Liste o time responsável pelo desenvolvimento do projeto
 
 The [MIT License]() (MIT)
 
-Copyright :copyright: Ano 2023 - API de Lista de Usuários em Banco de Dados (MongoDB) com Node (ExpressJS)
+Copyright :copyright: Ano 2023 - API REST - Lista de Usuários - JS, NodeJS e ExpressJS
