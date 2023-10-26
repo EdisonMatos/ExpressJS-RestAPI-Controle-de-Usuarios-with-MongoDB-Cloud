@@ -164,8 +164,6 @@ Para atualizar as informações (neste caso, sobrescrever), selecione o método 
 
 Para deletar um nome preenchido anteriormente, selecione o método DELETE, no endpoint com o número do nome desejado (ex: Se quiser deletar o 1º nome da lista, utilize localhost:3000/1 e clique em enviar.
 
----
-
 <br>
 
 ## Considerações finais
