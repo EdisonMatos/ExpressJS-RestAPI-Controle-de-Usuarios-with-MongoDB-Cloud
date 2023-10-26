@@ -79,7 +79,7 @@ git clone https://github.com/EdisonMatos/ExpressJS-Full-Application.git
 ```
 Acesse o conteúdo da pasta baixada através do comando:
 ```
-cd ExpressJS-Full-Application
+cd API-REST-Lista-de-Usuarios-JS-NodeJS-e-ExpressJS
 ```
 Dentro da pasta, instale as dependências necessárias para rodar a aplicação através do comando:
 ```
